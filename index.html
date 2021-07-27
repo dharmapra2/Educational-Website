@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta name="description" content="this is for NEXUS coding challange">
+    <meta name="keywords" content="HTML, CSS,jquery">
+    <meta name="author" content="Dharma Pradhan">
+    <title>Educational Website</title>
+    <!-- for animation-------- -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- google fonts----- -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- css links------------ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-aos-once="false">
+    <!-- header section starts -->
+    <header>
+        <div class="fas fa-bars" id="menu"></div>
+        <a href="" class="logo"><i class="fas fa-user-graduate"></i>LOGO</a>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#course">course</a></li>
+                <li><a href="#teacher">teacher</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+        <div class="fas fa-user-circle" id="login"></div>
+    </header>
+    <!-- login form--------------------- -->
+    <div class="login-form">
+        <form action="">
+            <h3>login</h3>
+            <input type="email" placeholder="username" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>forget password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Register now</a></p>
+            <input type="submit" class="btn" value="login">
+            <i class="fas fa-times"></i>
+        </form>
+    </div>
+    <!-- home section starts ------------ -->
+    <section class="home" id="home">
+        <h1>Education from home</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque provident voluptas similique iure deserunt facilis excepturi tio quod nihil  asperiores aut laboriosam.</p>
+        <a href="#" data-aos="slide-up" data-aos-duration="4000"  data-aos-delay="90"
+        ><button class="btn">get started</button></a>
+        <!-- <div class="shape"></div> -->
+    </section>
+    <!-- about section start---------- -->
+    <section class="about" id="about">
+        <div class="image" data-aos="slide-up" data-aos-duration="3990">
+            <img src="./image/student.svg" alt="">
+        </div>
+        <div class="content" data-aos="slide-up" data-aos-duration="4000">
+            <h3>Why choose us?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam saepe atque ex sapiente minima assumenda debitis,</p>
+            <p>iste eos harum ea sequi, error similique, excepturi quia quaerat delectus illum pariatur molestias? </p>
+            <a href="#"><button class="btn">learn more</button></a>
+        </div>
+    </section>
+    <!-- course section start----------->
+    <section class="course" id="course">
+        <h1 class="heading">Our popular courses</h1>
+        <div class="box-container">
+            <div class="box" data-aos="fade-up" data-aos-duration="4000">
+                <img src="./image/img-html.svg" alt="course1">
+                <h3 class="price">&#8377;500</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">learn front end development</a>
+                    <p>Lorem, ipsum dolor sit amet con necessitatibus id, voluptatibus mollitia delectus quib. odit vitae voluptate eveniet.</p>
+                    <div class="info">
+                     <h3><i class="far fa-clock"></i> 60+ hours</h3>
+                     <h3><i class="far fa-calendar"></i>3 months</h3>
+                     <h3><i class="fas fa-book"></i> 50+ modules</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="4000">
+                <img src="./image/backend.png" alt="course1">
+                <h3 class="price">&#8377;500</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">learn Backend development</a>
+                    <p>Lorem, ipsum dolor sit amet  id, voluptatibus mollitia delectus quib. odit vitae voluptate eveniet.</p>
+                    <div class="info">
+                     <h3><i class="far fa-clock"></i> 30+ hours</h3>
+                     <h3><i class="far fa-calendar"></i> 2 months</h3>
+                     <h3><i class="fas fa-book"></i> 30+ modules</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="4000">
+                <img src="./image/java.png" alt="course1">
+                <h3 class="price">&#8377;500</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">learn Java fullStack</a>
+                    <p>Lorem, ipsum dolor sit amet  id, voluptatibus mollitia delectus quib. odit vitae voluptate eveniet.</p>
+                    <div class="info">
+                     <h3><i class="far fa-clock"></i> 180+ hours</h3>
+                     <h3><i class="far fa-calendar"></i> 6 months</h3>
+                     <h3><i class="fas fa-book"></i> 230+ modules</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="4000">
+                <img src="./image/fullstack.png" alt="course1">
+                <h3 class="price">&#8377;500</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Full stack development</a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisiid, voluptatibus mollitia delectus quib. odit vitae voluptate eveniet.</p>
+                    <div class="info">
+                     <h3><i class="far fa-clock"></i> 120+ hours</h3>
+                     <h3><i class="far fa-calendar"></i> 6 months</h3>
+                     <h3><i class="fas fa-book"></i> 130+ modules</h3>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <!-- teacher section start ------>
+    <section class="teacher" id="teacher" data-aos="fade" data-aos-duration="4000">
+        <h1 class="heading" data-aos="slide-up" data-aos-duration="4000">our expert teachers</h1>
+        <p     data data-aos="slide-up" data-aos-duration="4000">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas explicabo aspernatur a voluptate quae, voluptatum perspiciatis fugit exercitationem quaerat?</p>
+        <a href="#"><button class="btn" data-aos="slide-up" data-aos-duration="4000">Learn more</button></a>
+    </section>
+    <!-- contact section start ----->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact</h1>
+        <div class="row">
+            <form action="" data-aos="fade-up" data-aos-duration="1000">
+                <input type="text" placeholder="full name" class="box">
+                <input type="email" placeholder="your email" class="box">
+                <input type="url" placeholder="github link" class="box">
+                <input type="number" placeholder="phone number" class="box">
+                <textarea rows="" class="box message" placeholder="type uour message...."></textarea>
+                <input type="submit" value="Send now" class="btn">
+            </form>
+            <div class="image">
+                <img src="./image/hangout.svg" alt="">
+            </div>
+        </div>
+        </section>
+    <!-- footer section --------- -->
+    <footer class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">Odisha</a>
+                <a href="#">Andra pradesh</a>
+                <a href="#">Delhi</a>
+                <a href="#">Goa</a>
+            </div>
+            <div class="box">
+                <h3>Explore</h3>
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#course">course</a>
+                <a href="#teacher">teacher</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <p><i class="fas fa-map-marker-alt"></i>Berhampur,Odisha,India</p>
+                <p><i class="fas fa-envelope"></i>pdharma86@gmail.com</p>
+                <p><i class="fas fa-phone"></i>+91-8648680949</p>
+            </div>
+        </div>
+        <h1 class="creat">Created by <a href="https://dharmapra2.github.io/dharma-portfolio">Dharma Pradhan</a> all rights reserved.</h1>
+    </footer>
+        <!-- jquery cdn -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- custome js  -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        //   duration: 10;
+      });
+    </script>
+  
+</body>
+</html>
